@@ -10,7 +10,7 @@ function Navbar() {
 
       <div className="flex items-center justify-between">
 
-        <img src={logo} alt="Logo" className="w-32" />
+        <img src={logo} alt="Logo" className="w-34" />
 
         <ul className="hidden md:flex gap-8 absolute left-1/2 transform -translate-x-1/2 font-bold text-xl">
           
