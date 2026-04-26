@@ -2,7 +2,7 @@ import { useState } from 'react'
 import logo from '../assets/logo-nav.png'
 import { FaInstagram, FaFacebook } from 'react-icons/fa'
 
-function Navbar() {
+export default function Navbar() {
   const [open, setOpen] = useState(false)
 
   return (
@@ -101,5 +101,3 @@ function Navbar() {
     </nav>
   )
 }
-
-export default Navbar

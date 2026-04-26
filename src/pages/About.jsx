@@ -1,7 +1,7 @@
 import sideAbout from "../assets/side-about.avif";
 import { FaStar, FaHandshake, FaRulerCombined } from "react-icons/fa";
 
-function About() {
+export default function About() {
   return (
     <section
       id="about"
@@ -50,7 +50,7 @@ function About() {
 
         <div
           data-aos="fade-up"
-          className="bg-white/80 border border-[#e0d4c6] rounded-2xl p-8 text-center shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all space-y-3"
+          className="bg-white/80 border border-[#e0d4c6] rounded-2xl p-8 text-center shadow-lg space-y-3"
         >
           <FaStar className="text-4xl mx-auto text-[#d6b36a]" />
 
@@ -67,7 +67,7 @@ function About() {
         <div
           data-aos="fade-up"
           data-aos-delay="150"
-          className="bg-white/80 border border-[#e0d4c6] rounded-2xl p-8 text-center shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all space-y-3"
+          className="bg-white/80 border border-[#e0d4c6] rounded-2xl p-8 text-center shadow-lg space-y-3"
         >
           <FaRulerCombined className="text-4xl mx-auto text-[#d6b36a]" />
 
@@ -83,7 +83,7 @@ function About() {
         <div
           data-aos="fade-up"
           data-aos-delay="300"
-          className="bg-white/80 border border-[#e0d4c6] rounded-2xl p-8 text-center shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all space-y-3"
+          className="bg-white/80 border border-[#e0d4c6] rounded-2xl p-8 text-center shadow-lg space-y-3"
         >
           <FaHandshake className="text-4xl mx-auto text-[#d6b36a]" />
 
@@ -100,5 +100,3 @@ function About() {
     </section>
   );
 }
-
-export default About;

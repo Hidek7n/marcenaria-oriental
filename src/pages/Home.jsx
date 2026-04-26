@@ -1,6 +1,6 @@
 import bg from '../assets/home-bg.avif'
 
-function Home() {
+export default function Home() {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-to-r from-[#4e342e] to-[#8d6e63] z-0"
     >
@@ -44,5 +44,3 @@ function Home() {
     </section>
   )
 }
-
-export default Home;
