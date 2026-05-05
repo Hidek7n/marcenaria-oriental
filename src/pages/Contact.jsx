@@ -92,7 +92,7 @@ export default function Contact() {
           data-aos="fade-right"
           className="grid grid-cols-1 xl:grid-cols-2 gap-8"
         >
-          {/* FORM */}
+
           <div className="flex-1 px-4 py-8 md:py-10">
             <div className="max-w-xl md:max-w-2xl mx-auto p-4 md:p-8">
               <h2 className="text-[#f1de9c] text-sm sm:text-base md:text-lg font-semibold font-playfair">

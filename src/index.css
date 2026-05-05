@@ -1,4 +1,10 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap');
+
+@theme {
+  --font-playfair: "Playfair Display", serif;
+  --color-nav: #967350;
+}
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -21,7 +27,7 @@
 
 .nav-link::after {
   content: '';
-  @apply absolute left-0 -bottom-1 h-[2px] w-0 bg-amber-950 transition-all duration-300 ease-in-out;
+  @apply absolute left-0 -bottom-1 h-[2px] w-0 bg-nav transition-all duration-300 ease-in-out;
 }
 
 .nav-link:hover::after {

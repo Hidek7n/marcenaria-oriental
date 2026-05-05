@@ -2,13 +2,13 @@ import Navbar from "./components/Navbar.jsx";
 import About from "./pages/About.jsx";
 import Home from "./pages/Home.jsx";
 import Projects from "./pages/Projects.jsx";
-import Footer from "./components/Footer.jsx"
+import Footer from "./components/Footer.jsx";
 import { FaWhatsapp } from "react-icons/fa";
 import Contact from "./pages/Contact.jsx";
 
 function App() {
     return (
-        <>
+        <div className="min-w-[320px]">
             <Navbar />
             <a
                 href="https://wa.me/5511996352392?text=Olá!%20Gostaria%20de%20fazer%20um%20orçamento%20com%20a%20Marcenaria%20Oriental."
@@ -23,7 +23,7 @@ function App() {
             <Projects />
             <Contact />
             <Footer />
-        </>
+        </div>
     );
 }
 

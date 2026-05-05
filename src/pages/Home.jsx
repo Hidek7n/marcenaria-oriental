@@ -16,7 +16,7 @@ export default function Home() {
 
       <div className="relative z-10 text-center px-6 flex flex-col items-center max-w-3xl mt-10 mb-10 md:mt-20 md:mb-20">
         
-        <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold text-white drop-shadow-lg mb-4">
+        <h1 className="font-playfair text-5xl sm:text-6xl md:text-7xl font-extrabold text-white drop-shadow-lg mb-4">
           Marcenaria Oriental
         </h1>
 
@@ -30,7 +30,7 @@ export default function Home() {
 
         <a
           href="#contact"
-          className="px-8 py-3 rounded-xl font-semibold text-[#3b2720]
+          className="px-8 py-3 rounded-xl font-bold text-[#3b2720]
                      bg-gradient-to-r from-[#d6b36a] to-[#f1de9c]
                      shadow-lg shadow-black/20
                      hover:shadow-xl hover:scale-[1.03] active:scale-95

@@ -1,6 +1,5 @@
 import sideAbout from "../assets/side-about.avif";
 import { FaStar, FaHandshake, FaRulerCombined } from "react-icons/fa";
-
 export default function About() {
   return (
     <section
